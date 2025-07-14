@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "jest": "^30.0.4",
+    "supertest": "^7.1.3"
+  },
+  "scripts": {
+    "test": "jest --watchAll",
+    "test:coverage": "jest --coverage",
+    "test:integration": "jest --testPathPattern=integration"
+  }
+}
